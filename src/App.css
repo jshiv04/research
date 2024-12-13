@@ -1,0 +1,12 @@
+.content {
+  width: 100%;
+  min-height: calc(100vh - 200px); /* Subtracting footer height from the viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}

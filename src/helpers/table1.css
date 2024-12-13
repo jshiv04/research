@@ -1,0 +1,56 @@
+.table1 {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin: 20px 0;
+  margin-right: 500px;
+  position: relative;
+  padding: 20px;
+  margin-bottom: 40px;
+  display: relative;
+}
+
+.table1 td, .table1 th {
+  border: 1px solid #ddd;
+  padding: 8px 12px;
+}
+
+
+.table1 tr:nth-child(even) {
+  background-color: #ffffff;
+}
+
+.table1 tr:hover {
+  background-color: #ddd;
+}
+
+.table1 th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #660909;
+  cursor: pointer;
+  color: white;
+}
+
+.pagination-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.pagination-left, 
+.pagination-right {
+  display: flex;
+  gap: 5px;
+}
+
+.pagination-center {
+  display: flex;
+  align-items: center;
+}
+
+.pagination-center span {
+  margin-bottom: 10px;
+}

@@ -1,0 +1,12 @@
+.literature {
+  width: 100%;
+  min-height: 80vh; /* Adjust height to ensure space between table and footer */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px 0; /* Ensure enough space around the table */
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-bottom: 20px; /* Space between table and footer */
+}
+
+
